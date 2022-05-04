@@ -41,6 +41,18 @@
       "description": "Treadmill Parts For Free",
       "image": "./images/treadmill.jpg",
       "location": "East Flatbush"
+    },
+    {
+      "description": "Death Star",
+      "location": "Far Far Away",
+      "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/Death_star1.png",
+      "id": 8
+    },
+    {
+      "description": "",
+      "location": "",
+      "image": "",
+      "id": 9
     }
   ]
 }

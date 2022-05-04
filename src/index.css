@@ -36,6 +36,18 @@ header h1 {
   justify-content: center;
 }
 
+.newListingFrom {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-family: serif;
+  padding-top: 5px;
+}
+
+.newListingFrom > * {
+  margin: 5px;
+}
+
 .searchbar input {
   width: 90%;
   font-size: 1rem;

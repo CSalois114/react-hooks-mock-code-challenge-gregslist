@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Search({ changeSearch }) {
+function Search({ changeSearch, toggleSorted }) {
   const [search, setSearch] = useState("")
 
   function handleSubmit(e) {
@@ -18,6 +18,7 @@ function Search({ changeSearch }) {
         onChange={(e) => setSearch(e.target.value)}
       />
       <button type="submit">🔍</button>
+      <button onClick={toggleSorted} >Sort By Location</button>
     </form>
   );
 }
